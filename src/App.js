@@ -1,25 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Wrapper from "./components/Wrapper/index";
+import Navbar from "./components/Navbar/Navbar";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import About from "./components/pages/About";
+import Project from "./components/pages/Project";
+import Contact from "./components/pages/Contact";
+import 'semantic-ui-css/semantic.min.css';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Wrapper>
+    <Router>
+      <Header />
+     <Navbar />
+     <Route exact path="/about" component={About} />
+     <Route exact path="/projects" component={Project} />
+     <Route exact path="/contact" component={Contact} />
+     <Footer />
+    </Router>
+    </Wrapper>
   );
 }
 
