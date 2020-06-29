@@ -1,0 +1,39 @@
+
+
+[{
+    "title" : "Boteco Virtual",
+    "image" : "https://placeholder.pics/svg/300x300",
+    "github" : "https://github.com/gohucosta23/Project-1",
+    "url" : "https://gohucosta23.github.io/Project-1/"
+},
+{
+    "title" : "Good-To-Go",
+    "image" : "https://placeholder.pics/svg/300x300",
+    "github" : "https://github.com/gohucosta23/project2",
+    "url" : "https://goodtogo2020.herokuapp.com/"   
+},
+{
+    "title" : "Weather Dashboard",
+    "image" : "https://placeholder.pics/svg/300x300",
+    "github" : "https://github.com/gohucosta23/Weather-Dashboard",
+    "url" : "https://gohucosta23.github.io/Weather-Dashboard/"
+},
+{
+    "title" : "Eat-Da-Burger",
+    "image" : "https://placeholder.pics/svg/300x300",
+    "github" : "https://github.com/gohucosta23/Eat-Da-Burger",
+    "url" : "https://stormy-taiga-53566.herokuapp.com/"
+},
+{
+    "title" : "Note Taker",
+    "image" : "https://placeholder.pics/svg/300x300",
+    "github" : "https://github.com/gohucosta23/Note-Taker",
+    "url" : "https://glacial-reaches-45647.herokuapp.com/"
+},
+{
+    "title" : "Day Planner",
+    "image" : "https://placeholder.pics/svg/300x300",
+    "github" : "https://github.com/gohucosta23/Day-Calendar",
+    "url" : "https://gohucosta23.github.io/Day-Calendar/"
+}
+]

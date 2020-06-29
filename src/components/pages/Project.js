@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import ProjectList from "../utils/ProjectList";
+import projects from "../../projects.json";
 
 export default function Project() {
+
+
     return (
         <div>
-            <h1>Project</h1>
+            <div class="ui container six column grid">
+                <ProjectList projects = {projects}/>
+            </div>
         </div>
     )
 }
