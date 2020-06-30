@@ -6,7 +6,7 @@ const styles = {
         marginTop : "20px"
     },
     card : {
-        marginTop : "30px"
+        marginTop : "50px"
     }
 }
 
@@ -16,7 +16,7 @@ export default function ProjectList(props) {
             {props.projects.map(project => (
                 <>  
                     <div style = {styles.card} class="ui segment left floated clearing">
-                        <img src={project.image} alt={project.title} />
+                        <img src={project.image} alt={project.title} width = "300px" height = "300px" />
                     <div style = {styles.content} class="content center aligned">
                         <h4 class="center aligned">{project.title}</h4>
                         <div class="meta">

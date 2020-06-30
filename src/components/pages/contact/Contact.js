@@ -1,5 +1,5 @@
 import React from 'react';
-import FormContainer from "../../utils/FormContainer"; 
+import FormContainer from "./FormContainer"; 
 import ContactForm from "./ContactForm";
 import ConnectWithMe from "./ConnectWithMe";
 
@@ -8,8 +8,8 @@ export default function Contact() {
 
 
     return (
-        <div>
-        <div class = "ui grid container row" style = {{paddingTop : "30px"}}>
+        <div style = {{height : "700px"}}>
+        <div class = "ui grid container row" style = {{paddingTop : "50px"}}>
             <div class="ui twelve wide column">
                 <FormContainer>
                     <div style = {{padding : "30px"}}>

@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from "../../images/portfolio/resume.pdf";
 
 
 const styles = {
@@ -36,7 +37,7 @@ export default function ConnectWithMe() {
                     <a href = "https://www.linkedin.com/in/hugo-costa-69b793198/" target="blank"><i class="linkedin big icon"></i></a>
                 </div>
                 <div class="left floated">
-                    <a href = "../../images/resume.pdf" target="blank"><i class="file alternate outline big icon"></i></a>
+                    <a href = {resume} target="blank"><i class="file alternate outline big icon"></i></a>
                 </div>
             </div>
         </div>
