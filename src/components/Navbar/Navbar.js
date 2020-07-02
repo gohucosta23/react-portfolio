@@ -21,7 +21,7 @@ export default function Navbar() {
       <div class = "ui grid">
         <div class = "ui row grey">
         <div class="center aligned five wide column">
-        <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"} >
+        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"} >
           <p style = {styles.text}>About</p>
         </Link>
         </div>

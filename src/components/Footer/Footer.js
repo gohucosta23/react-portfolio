@@ -6,7 +6,7 @@ export default function Footer() {
         <div class= "ui orange">
             <div class="ui row" className = "footerPosition">
                 <div class="column padding-reset" >
-                    <div class="ui orange huge message page grid center aligned" style = {{height : "150px"}}>
+                    <div class="ui orange huge message page grid center aligned" style = {{height : "110px"}}>
                         <h1 class="ui huge header blue">Footer</h1>
                     </div>
                 </div>
