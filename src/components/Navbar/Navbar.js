@@ -21,7 +21,7 @@ export default function Navbar() {
       <div class = "ui grid">
         <div class = "ui row grey">
         <div class="center aligned five wide column">
-        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"} >
+        <Link to="react-portfolio/" className={location.pathname === "react-portfolio/" ? "nav-link active" : "nav-link"} >
           <p style = {styles.text}>About</p>
         </Link>
         </div>
