@@ -6,16 +6,16 @@ export default function About() {
 
     return (
         <div style={{ height: "700px" }}>
-            <div class="ui raised container segment" style={{ marginTop: "50px" }}>
-                <div class="ui grid container row">
-                    <div class="ui grid column container twelve">
-                        <div class="ui column six wide">
-                            <img class="ui rounded image" src={photo} alt="hugo costa" width="300px" height="300px" />
+            <div className="ui raised container segment" style={{ marginTop: "50px" }}>
+                <div className="ui grid container row">
+                    <div className="ui grid column container twelve">
+                        <div className="ui column six wide">
+                            <img className="ui rounded image" src={photo} alt="hugo costa" width="300px" height="300px" />
                         </div>
-                        <div class="ui grid column nine wide">
+                        <div className="ui grid column nine wide">
                             <br></br>
                             <h2><strong>About</strong></h2>
-                            <div class="ui fitted divider"></div>
+                            <div className="ui fitted divider"></div>
                             <br></br>
                             <p>Full Stack Web Developer, creative problem solver and teamplayer, with experience inHTML5, CSS3, JavaScript, 
                                 jQuery, Bootstrap, Express.js, React.js, Node.js, Database Theory,MongoDB, MySQL, Command Line and Git​. Being 
