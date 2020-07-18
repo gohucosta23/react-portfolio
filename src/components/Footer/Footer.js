@@ -11,7 +11,7 @@ export default function Footer() {
                     <div style = {{height : "110px", textAlign : "center"}}>
                     <nav className="foo-nav">
                             <ul> 
-                                <li><Link style={{color : "white", fontWeight : "bold"}} to="/react-portfolio">About</Link></li>
+                                <li><Link style={{color : "white", fontWeight : "bold"}} to="/">About</Link></li>
                                 <li><Link style={{color : "white", fontWeight : "bold"}} to="/projects">Projects</Link></li>
                                 <li><Link style={{color : "white", fontWeight : "bold"}} to="/contact">Contact</Link></li>
                             </ul>
